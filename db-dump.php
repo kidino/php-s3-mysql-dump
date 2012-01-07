@@ -65,7 +65,7 @@ foreach($tables as $table){
 }
 
 if(DUMP_TYPE == 'DATABASE'){
-	$dump_name = DUMP_PREFIX.$table.'.sql';
+	$dump_name = DUMP_PREFIX.DB_DATABASE.'.sql';
 	$handle = fopen($dump_name,'w+');
 	fwrite($handle,$return);
 
