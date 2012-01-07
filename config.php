@@ -21,4 +21,6 @@ define('S3_URI','CHANGE_THIS/'); // Include trailing slash for directory listing
 	2. $tables = array('table1','table2','table3');
 */
 $tables = '*';
+
+// More later?
 ?>

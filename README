@@ -1,0 +1,13 @@
+Quick (and dirty.. very dirty) script to dump MySQL databases to Amazon S3 account. 
+
+This script is a modified version of David Walsh's PHP function to dump databases.
+
+Undesigned S3 PHP Class:
+http://undesigned.org.za/2007/10/22/amazon-s3-php-class
+
+David Walsh's PHP Script to back up databases:
+http://davidwalsh.name/backup-mysql-database-php
+
+
+Configuration is pretty straight forward. 
+
